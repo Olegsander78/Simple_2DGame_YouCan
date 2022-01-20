@@ -8,12 +8,22 @@ public class Player : MonoBehaviour
     public float MoveSpeed;
     public float JumpForce;
     public Rigidbody2D Rig;
+    public SpriteRenderer SpriteRenderer;
+    public int Score;
+
 
     private void FixedUpdate()
     {
         float xInput = Input.GetAxis("Horizontal");
         Rig.velocity = new Vector2(xInput * MoveSpeed, Rig.velocity.y);
 
+        if (Rig.velocity.x > 0)
+        {
+            SpriteRenderer.flipX = false;
+        }else if(Rig.velocity.x < 0)
+        {
+            SpriteRenderer.flipX = true;
+        }
     }
     private void Update()
     {
@@ -33,5 +43,10 @@ public class Player : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+    }
+
+    public void AddScore(int amount)
+    {
+        Score += amount;
     }
 }
