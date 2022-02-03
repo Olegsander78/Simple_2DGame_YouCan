@@ -672,7 +672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 32
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1495,6 +1495,7 @@ MonoBehaviour:
   Rig: {fileID: 1184613182}
   SpriteRenderer: {fileID: 783299125}
   Score: 0
+  Ui: {fileID: 1342509939}
 --- !u!1 &1331657008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,6 +1671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d180556f9110040b819b6af7e33d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreText: {fileID: 425453533}
 --- !u!1 &1785115184
 GameObject:
   m_ObjectHideFlags: 0

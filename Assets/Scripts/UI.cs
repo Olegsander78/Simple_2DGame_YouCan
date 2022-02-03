@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class UI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI ScoreText;
 
-    // Update is called once per frame
-    void Update()
+    public void SetScoreText(int score)
     {
-        
+        ScoreText.text = score.ToString();
     }
 }

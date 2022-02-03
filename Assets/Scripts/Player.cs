@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D Rig;
     public SpriteRenderer SpriteRenderer;
     public int Score;
+    public UI Ui;
 
 
     private void FixedUpdate()
@@ -48,5 +49,6 @@ public class Player : MonoBehaviour
     public void AddScore(int amount)
     {
         Score += amount;
+        Ui.SetScoreText(Score);
     }
 }
