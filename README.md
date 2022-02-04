@@ -1,4 +1,6 @@
 # Simple_2DGame_YouCan
 Прототип простой 2D игры по курсам Unity Zenva 
 
-![изображение](https://user-images.githubusercontent.com/79563332/150120296-fef31e9d-7a39-4aaf-aa68-1c1ea9e71c2d.png)
+![изображение](https://user-images.githubusercontent.com/79563332/152481165-749045d6-1b0d-4bc4-a17f-ba29dcded4f7.png)
+
+
